@@ -30,7 +30,9 @@ const createAssistant = async ({ name, instructions, fileId }) => {
 const runAssistant = async ({ assistantId, threadId, instructions }) => {
   const run = await openai.beta.threads.runs.create(threadId, {
     assistant_id: assistantId,
+    model: "gpt-4-turbo",
     instructions: instructions,
+    
   });
   return run;
 };

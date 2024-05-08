@@ -1,0 +1,389 @@
+{
+    "messages": {
+        "options": {
+            "method": "get",
+            "path": "/threads/thread_9coQ5PdOSZKkjnmYTHAWWz5W/messages",
+            "query": {
+                "order": "asc",
+                "limit": 100
+            },
+            "headers": {
+                "OpenAI-Beta": "assistants=v2"
+            }
+        },
+        "response": {
+            "size": 0,
+            "timeout": 0
+        },
+        "body": {
+            "object": "list",
+            "data": [
+                {
+                    "id": "msg_ZiDwIgSsTTucQAiDZF98mumn",
+                    "object": "thread.message",
+                    "created_at": 1713626065,
+                    "assistant_id": null,
+                    "thread_id": "thread_9coQ5PdOSZKkjnmYTHAWWz5W",
+                    "run_id": null,
+                    "role": "user",
+                    "content": [
+                        {
+                            "type": "text",
+                            "text": {
+                                "value": "halo",
+                                "annotations": []
+                            }
+                        }
+                    ],
+                    "attachments": [],
+                    "metadata": {}
+                },
+                {
+                    "id": "msg_y1eYnvjZ7QCQwDqfXdeJAvB6",
+                    "object": "thread.message",
+                    "created_at": 1713626067,
+                    "assistant_id": "asst_kOWYW8qVgy50X88Y2Nz3RqIf",
+                    "thread_id": "thread_9coQ5PdOSZKkjnmYTHAWWz5W",
+                    "run_id": "run_cdUv8eZs9faZ5j2eM3mkYjf2",
+                    "role": "assistant",
+                    "content": [
+                        {
+                            "type": "text",
+                            "text": {
+                                "value": "Halo! Bagaimana kabarmu? Ada yang bisa kubantu terkait kesehatan mentalmu?",
+                                "annotations": []
+                            }
+                        }
+                    ],
+                    "attachments": [],
+                    "metadata": {}
+                },
+                {
+                    "id": "msg_unID4E87pLTwQiC6W3d9R27q",
+                    "object": "thread.message",
+                    "created_at": 1713626080,
+                    "assistant_id": "asst_kOWYW8qVgy50X88Y2Nz3RqIf",
+                    "thread_id": "thread_9coQ5PdOSZKkjnmYTHAWWz5W",
+                    "run_id": "run_lhBzkhRnlOqbblguZAw4TOn8",
+                    "role": "assistant",
+                    "content": [
+                        {
+                            "type": "text",
+                            "text": {
+                                "value": "Halo! Kabar baik. Terima kasih sudah menanyakan. Sebagai AI, saya dapat memberikan beberapa informasi dan saran terkait kesehatan mental jika kamu tertarik. Jangan ragu untuk bertanya apa yang sedang kamu pikirkan atau butuhkan.",
+                                "annotations": []
+                            }
+                        }
+                    ],
+                    "attachments": [],
+                    "metadata": {}
+                },
+                {
+                    "id": "msg_HRMfkpDbzVhNRJwCLT9155eL",
+                    "object": "thread.message",
+                    "created_at": 1713626844,
+                    "assistant_id": "asst_kOWYW8qVgy50X88Y2Nz3RqIf",
+                    "thread_id": "thread_9coQ5PdOSZKkjnmYTHAWWz5W",
+                    "run_id": "run_jAOKWpn8F4chnZBSQ7N98hbP",
+                    "role": "assistant",
+                    "content": [
+                        {
+                            "type": "text",
+                            "text": {
+                                "value": "Halo! Apa kabar? Jika kamu merasa stres, ada beberapa hal yang mungkin bisa membantu:\n\n1. Istirahat yang cukup: Cobalah memastikan bahwa kamu mendapatkan waktu istirahat yang cukup setiap malam. Tidur yang cukup dapat membantu mengurangi stres dan memulihkan energi.\n\n2. Olahraga dan aktivitas fisik: Melakukan olahraga dan aktivitas fisik dapat memicu pelepasan endorfin, yang dapat membantu mengurangi stres dan meningkatkan mood.\n\n3. Makan dengan seimbang: Pastikan bahwa kamu mengonsumsi makanan yang sehat dan seimbang. Hindari makanan yang dapat mempengaruhi mood, seperti makanan tinggi gulai atau makanan cepat saji.\n\n4. Kelola waktu dengan baik: Atur waktu dengan efisien dan prioritaskan tugas-tugas yang penting. Mengatur dan mengorganisasi waktu dapat membantu mengurangi stres secara keseluruhan.\n\n5. Jangan ragu untuk mencari dukungan: Bicarakan perasaanmu dengan orang terdekat seperti keluarga atau teman dekat. Mereka bisa memberikan dukungan dan perspektif yang berharga.\n\n6. Lakukan kegiatan yang menyenangkan: Cari kegiatan yang menyenangkan dan membuatmu bahagia, seperti hobi, membaca, menulis, bermain musik, atau menggambar. Hal-hal seperti ini dapat membantu mengalihkan pikiran dari stres.\n\n7. Gunakan teknik relaksasi: Cobalah teknik seperti meditasi, pernapasan dalam, atau yoga untuk meredakan stres dan meningkatkan kesejahteraan mental.\n\nJika stres yang kamu rasakan terus berlanjut dan sangat mengganggu aktivitasmu sehari-hari, disarankan untuk mencari bantuan profesional seperti psikolog atau konselor yang dapat memberikan dukungan dan strategi lebih lanjut. Jangan ragu untuk mencari bantuan ketika kamu merasa membutuhkannya.",
+                                "annotations": []
+                            }
+                        }
+                    ],
+                    "attachments": [],
+                    "metadata": {}
+                },
+                {
+                    "id": "msg_IESnMvnw6ML01Tx2P0ipmSWv",
+                    "object": "thread.message",
+                    "created_at": 1713628599,
+                    "assistant_id": null,
+                    "thread_id": "thread_9coQ5PdOSZKkjnmYTHAWWz5W",
+                    "run_id": null,
+                    "role": "user",
+                    "content": [
+                        {
+                            "type": "text",
+                            "text": {
+                                "value": "Aku bingung nih rasanya stress banget",
+                                "annotations": []
+                            }
+                        }
+                    ],
+                    "attachments": [],
+                    "metadata": {}
+                },
+                {
+                    "id": "msg_tEPJ16mwrp9nCpLekniumozB",
+                    "object": "thread.message",
+                    "created_at": 1713628645,
+                    "assistant_id": "asst_kOWYW8qVgy50X88Y2Nz3RqIf",
+                    "thread_id": "thread_9coQ5PdOSZKkjnmYTHAWWz5W",
+                    "run_id": "run_YoJgOD9u8LBVTuXTdgEjjMgb",
+                    "role": "assistant",
+                    "content": [
+                        {
+                            "type": "text",
+                            "text": {
+                                "value": "Rasanya sangat normal bila kamu merasa stres dan bingung dalam situasi tertentu. Tetapi penting bagi kita untuk mencoba mengatasi stres tersebut. Berikut beberapa langkah yang mungkin dapat membantu:\n\n1. Identifikasi penyebab stres: Coba pikirkan apa yang membuat kamu merasa stres. Apakah ada tekanan dalam pekerjaan, masalah dalam hubungan, atau tuntutan dari kehidupan sehari-hari yang membuatmu merasa terbebani? Mengidentifikasi penyebab stres dapat membantu kamu dalam menentukan langkah-langkah selanjutnya.\n\n2. Cari support: Berbicara dengan orang terdekat seperti keluarga atau teman bisa membantu meredakan stres. Mereka dapat memberikan perspektif baru atau mendukungmu dalam menghadapi situasi yang menyebabkan stres.\n\n3. Menetapkan prioritas: Pada saat merasa stres, mungkin kamu merasa terlalu banyak yang harus dilakukan. Coba buat daftar tugas atau tanggung jawab yang perlu diselesaikan, kemudian pilih prioritas untuk membantu mengatasi rasa kewalahan.\n\n4. Menjaga kesehatan fisik: Jaga kesehatan fisikmu dengan makan makanan sehat, beristirahat yang cukup, dan tetap aktif dengan berolahraga. Kesehatan fisik yang baik dapat membantu mengurangi tingkat stres.\n\n5. Cari kegiatan yang membuat tenang: Usahakan mengalokasikan waktu untuk melakukan kegiatan yang membuatmu rileks dan bahagia, seperti membaca, mendengarkan musik, meditasi, atau berjalan-jalan di alam terbuka. Hal-hal ini dapat membantu meredakan stres dan mengisi diri dengan energi positif.\n\n6. Jangan ragu untuk mencari bantuan profesional: Jika stres yang kamu alami terus berlanjut dan mempengaruhi keseharianmu, pertimbangkan untuk mencari bantuan dari profesional seperti psikolog atau konselor. Mereka dapat membantu kamu dalam mengatasi stres secara efektif.\n\nIngatlah bahwa proses mengatasi stres membutuhkan waktu. Jangan terlalu keras pada dirimu sendiri. Tetaplah sabar dan beri dirimu kesempatan untuk pulih. Jika kamu merasa bahwa stres yang kamu alami sangat berat dan mengganggu kehidupanmu sehari-hari, sangat disarankan untuk mencari bantuan dari profesional yang dapat memberikan dukungan lebih lanjut.",
+                                "annotations": []
+                            }
+                        }
+                    ],
+                    "attachments": [],
+                    "metadata": {}
+                },
+                {
+                    "id": "msg_arkBa1Yez4LyemM3WZG1AwVo",
+                    "object": "thread.message",
+                    "created_at": 1713628667,
+                    "assistant_id": null,
+                    "thread_id": "thread_9coQ5PdOSZKkjnmYTHAWWz5W",
+                    "run_id": null,
+                    "role": "user",
+                    "content": [
+                        {
+                            "type": "text",
+                            "text": {
+                                "value": "Aku bingung nih rasanya stress banget",
+                                "annotations": []
+                            }
+                        }
+                    ],
+                    "attachments": [],
+                    "metadata": {}
+                },
+                {
+                    "id": "msg_PsWtiEu3mQkq722bFUaP2i7N",
+                    "object": "thread.message",
+                    "created_at": 1713628740,
+                    "assistant_id": null,
+                    "thread_id": "thread_9coQ5PdOSZKkjnmYTHAWWz5W",
+                    "run_id": null,
+                    "role": "user",
+                    "content": [
+                        {
+                            "type": "text",
+                            "text": {
+                                "value": "Kok akhir ini aku susah tidur ya",
+                                "annotations": []
+                            }
+                        }
+                    ],
+                    "attachments": [],
+                    "metadata": {}
+                },
+                {
+                    "id": "msg_hFfAmx3OLhxCFshJVQLI3L0v",
+                    "object": "thread.message",
+                    "created_at": 1713628763,
+                    "assistant_id": "asst_kOWYW8qVgy50X88Y2Nz3RqIf",
+                    "thread_id": "thread_9coQ5PdOSZKkjnmYTHAWWz5W",
+                    "run_id": "run_7mtxwTDWMAXSJsVgJy4La2Zw",
+                    "role": "assistant",
+                    "content": [
+                        {
+                            "type": "text",
+                            "text": {
+                                "value": "Susah tidur dapat menjadi salah satu gejala dari stres yang berlebihan. Ada beberapa hal yang mungkin dapat membantu kamu untuk tidur lebih baik:\n\n1. Rutin membuat jadwal tidur: Cobalah untuk tidur dan bangun pada waktu yang sama setiap hari untuk membantu mengatur ritme sirkadian tubuhmu.\n\n2. Ciptakan lingkungan tidur yang nyaman: Pastikan ruangan tidurmu tenang, gelap, dan sejuk. Gunakan bantal dan kasur yang nyaman untuk mendukung posisi tidur yang baik.\n\n3. Hindari makanan, minuman, dan stimulan tertentu: Jauhkan diri dari kafein, alkohol, dan makanan berat sebelum tidur, karena mereka dapat mengganggu tidurmu. Cobalah minum teh herbal atau susu hangat sebagai alternatif.\n\n4. Batasi penggunaan teknologi sebelum tidur: Cahaya biru dari layar gadget dapat mengganggu produksi melatonin, hormon yang membantu mengatur siklus tidur. Usahakan untuk tidak menggunakan gadget atau menonton televisi setidaknya satu jam sebelum tidur.\n\n5. Lakukan relaksasi sebelum tidur: Coba lakukan aktivitas yang menenangkan sebelum tidur, seperti meditasi, pernapasan dalam, atau membaca buku. Ini dapat membantu menenangkan pikiranmu sebelum tidur.\n\n6. Hindari melakukan aktivitas yang berat atau berpikir keras sebelum tidur: Coba hindari melakukan pekerjaan rumah, belajar, atau memikirkan masalah berat sebelum tidur. Beralih ke kegiatan yang lebih santai dapat membantu melepaskan stres dan membuatmu lebih siap untuk tidur.\n\n7. Buat rutinitas tidur yang menyenangkan: Lakukan rutinitas relaksasi sebelum tidur, seperti mandi hangat, minum teh herbal, atau membaca buku yang membuatmu tenang. Rutinitas ini dapat memberi sinyal kepada tubuhmu bahwa saatnya untuk bersantai dan tidur.\n\nJika kamu masih kesulitan tidur meski sudah mencoba langkah-langkah di atas, sangat disarankan untuk berkonsultasi dengan dokter atau profesional kesehatan. Mereka dapat membantu mengevaluasi situasi tidurmu dengan lebih mendalam dan memberikan saran yang lebih spesifik untuk situasimu.",
+                                "annotations": []
+                            }
+                        }
+                    ],
+                    "attachments": [],
+                    "metadata": {}
+                }
+            ],
+            "first_id": "msg_ZiDwIgSsTTucQAiDZF98mumn",
+            "last_id": "msg_hFfAmx3OLhxCFshJVQLI3L0v",
+            "has_more": false
+        },
+        "data": [
+            {
+                "id": "msg_ZiDwIgSsTTucQAiDZF98mumn",
+                "object": "thread.message",
+                "created_at": 1713626065,
+                "assistant_id": null,
+                "thread_id": "thread_9coQ5PdOSZKkjnmYTHAWWz5W",
+                "run_id": null,
+                "role": "user",
+                "content": [
+                    {
+                        "type": "text",
+                        "text": {
+                            "value": "halo",
+                            "annotations": []
+                        }
+                    }
+                ],
+                "attachments": [],
+                "metadata": {}
+            },
+            {
+                "id": "msg_y1eYnvjZ7QCQwDqfXdeJAvB6",
+                "object": "thread.message",
+                "created_at": 1713626067,
+                "assistant_id": "asst_kOWYW8qVgy50X88Y2Nz3RqIf",
+                "thread_id": "thread_9coQ5PdOSZKkjnmYTHAWWz5W",
+                "run_id": "run_cdUv8eZs9faZ5j2eM3mkYjf2",
+                "role": "assistant",
+                "content": [
+                    {
+                        "type": "text",
+                        "text": {
+                            "value": "Halo! Bagaimana kabarmu? Ada yang bisa kubantu terkait kesehatan mentalmu?",
+                            "annotations": []
+                        }
+                    }
+                ],
+                "attachments": [],
+                "metadata": {}
+            },
+            {
+                "id": "msg_unID4E87pLTwQiC6W3d9R27q",
+                "object": "thread.message",
+                "created_at": 1713626080,
+                "assistant_id": "asst_kOWYW8qVgy50X88Y2Nz3RqIf",
+                "thread_id": "thread_9coQ5PdOSZKkjnmYTHAWWz5W",
+                "run_id": "run_lhBzkhRnlOqbblguZAw4TOn8",
+                "role": "assistant",
+                "content": [
+                    {
+                        "type": "text",
+                        "text": {
+                            "value": "Halo! Kabar baik. Terima kasih sudah menanyakan. Sebagai AI, saya dapat memberikan beberapa informasi dan saran terkait kesehatan mental jika kamu tertarik. Jangan ragu untuk bertanya apa yang sedang kamu pikirkan atau butuhkan.",
+                            "annotations": []
+                        }
+                    }
+                ],
+                "attachments": [],
+                "metadata": {}
+            },
+            {
+                "id": "msg_HRMfkpDbzVhNRJwCLT9155eL",
+                "object": "thread.message",
+                "created_at": 1713626844,
+                "assistant_id": "asst_kOWYW8qVgy50X88Y2Nz3RqIf",
+                "thread_id": "thread_9coQ5PdOSZKkjnmYTHAWWz5W",
+                "run_id": "run_jAOKWpn8F4chnZBSQ7N98hbP",
+                "role": "assistant",
+                "content": [
+                    {
+                        "type": "text",
+                        "text": {
+                            "value": "Halo! Apa kabar? Jika kamu merasa stres, ada beberapa hal yang mungkin bisa membantu:\n\n1. Istirahat yang cukup: Cobalah memastikan bahwa kamu mendapatkan waktu istirahat yang cukup setiap malam. Tidur yang cukup dapat membantu mengurangi stres dan memulihkan energi.\n\n2. Olahraga dan aktivitas fisik: Melakukan olahraga dan aktivitas fisik dapat memicu pelepasan endorfin, yang dapat membantu mengurangi stres dan meningkatkan mood.\n\n3. Makan dengan seimbang: Pastikan bahwa kamu mengonsumsi makanan yang sehat dan seimbang. Hindari makanan yang dapat mempengaruhi mood, seperti makanan tinggi gulai atau makanan cepat saji.\n\n4. Kelola waktu dengan baik: Atur waktu dengan efisien dan prioritaskan tugas-tugas yang penting. Mengatur dan mengorganisasi waktu dapat membantu mengurangi stres secara keseluruhan.\n\n5. Jangan ragu untuk mencari dukungan: Bicarakan perasaanmu dengan orang terdekat seperti keluarga atau teman dekat. Mereka bisa memberikan dukungan dan perspektif yang berharga.\n\n6. Lakukan kegiatan yang menyenangkan: Cari kegiatan yang menyenangkan dan membuatmu bahagia, seperti hobi, membaca, menulis, bermain musik, atau menggambar. Hal-hal seperti ini dapat membantu mengalihkan pikiran dari stres.\n\n7. Gunakan teknik relaksasi: Cobalah teknik seperti meditasi, pernapasan dalam, atau yoga untuk meredakan stres dan meningkatkan kesejahteraan mental.\n\nJika stres yang kamu rasakan terus berlanjut dan sangat mengganggu aktivitasmu sehari-hari, disarankan untuk mencari bantuan profesional seperti psikolog atau konselor yang dapat memberikan dukungan dan strategi lebih lanjut. Jangan ragu untuk mencari bantuan ketika kamu merasa membutuhkannya.",
+                            "annotations": []
+                        }
+                    }
+                ],
+                "attachments": [],
+                "metadata": {}
+            },
+            {
+                "id": "msg_IESnMvnw6ML01Tx2P0ipmSWv",
+                "object": "thread.message",
+                "created_at": 1713628599,
+                "assistant_id": null,
+                "thread_id": "thread_9coQ5PdOSZKkjnmYTHAWWz5W",
+                "run_id": null,
+                "role": "user",
+                "content": [
+                    {
+                        "type": "text",
+                        "text": {
+                            "value": "Aku bingung nih rasanya stress banget",
+                            "annotations": []
+                        }
+                    }
+                ],
+                "attachments": [],
+                "metadata": {}
+            },
+            {
+                "id": "msg_tEPJ16mwrp9nCpLekniumozB",
+                "object": "thread.message",
+                "created_at": 1713628645,
+                "assistant_id": "asst_kOWYW8qVgy50X88Y2Nz3RqIf",
+                "thread_id": "thread_9coQ5PdOSZKkjnmYTHAWWz5W",
+                "run_id": "run_YoJgOD9u8LBVTuXTdgEjjMgb",
+                "role": "assistant",
+                "content": [
+                    {
+                        "type": "text",
+                        "text": {
+                            "value": "Rasanya sangat normal bila kamu merasa stres dan bingung dalam situasi tertentu. Tetapi penting bagi kita untuk mencoba mengatasi stres tersebut. Berikut beberapa langkah yang mungkin dapat membantu:\n\n1. Identifikasi penyebab stres: Coba pikirkan apa yang membuat kamu merasa stres. Apakah ada tekanan dalam pekerjaan, masalah dalam hubungan, atau tuntutan dari kehidupan sehari-hari yang membuatmu merasa terbebani? Mengidentifikasi penyebab stres dapat membantu kamu dalam menentukan langkah-langkah selanjutnya.\n\n2. Cari support: Berbicara dengan orang terdekat seperti keluarga atau teman bisa membantu meredakan stres. Mereka dapat memberikan perspektif baru atau mendukungmu dalam menghadapi situasi yang menyebabkan stres.\n\n3. Menetapkan prioritas: Pada saat merasa stres, mungkin kamu merasa terlalu banyak yang harus dilakukan. Coba buat daftar tugas atau tanggung jawab yang perlu diselesaikan, kemudian pilih prioritas untuk membantu mengatasi rasa kewalahan.\n\n4. Menjaga kesehatan fisik: Jaga kesehatan fisikmu dengan makan makanan sehat, beristirahat yang cukup, dan tetap aktif dengan berolahraga. Kesehatan fisik yang baik dapat membantu mengurangi tingkat stres.\n\n5. Cari kegiatan yang membuat tenang: Usahakan mengalokasikan waktu untuk melakukan kegiatan yang membuatmu rileks dan bahagia, seperti membaca, mendengarkan musik, meditasi, atau berjalan-jalan di alam terbuka. Hal-hal ini dapat membantu meredakan stres dan mengisi diri dengan energi positif.\n\n6. Jangan ragu untuk mencari bantuan profesional: Jika stres yang kamu alami terus berlanjut dan mempengaruhi keseharianmu, pertimbangkan untuk mencari bantuan dari profesional seperti psikolog atau konselor. Mereka dapat membantu kamu dalam mengatasi stres secara efektif.\n\nIngatlah bahwa proses mengatasi stres membutuhkan waktu. Jangan terlalu keras pada dirimu sendiri. Tetaplah sabar dan beri dirimu kesempatan untuk pulih. Jika kamu merasa bahwa stres yang kamu alami sangat berat dan mengganggu kehidupanmu sehari-hari, sangat disarankan untuk mencari bantuan dari profesional yang dapat memberikan dukungan lebih lanjut.",
+                            "annotations": []
+                        }
+                    }
+                ],
+                "attachments": [],
+                "metadata": {}
+            },
+            {
+                "id": "msg_arkBa1Yez4LyemM3WZG1AwVo",
+                "object": "thread.message",
+                "created_at": 1713628667,
+                "assistant_id": null,
+                "thread_id": "thread_9coQ5PdOSZKkjnmYTHAWWz5W",
+                "run_id": null,
+                "role": "user",
+                "content": [
+                    {
+                        "type": "text",
+                        "text": {
+                            "value": "Aku bingung nih rasanya stress banget",
+                            "annotations": []
+                        }
+                    }
+                ],
+                "attachments": [],
+                "metadata": {}
+            },
+            {
+                "id": "msg_PsWtiEu3mQkq722bFUaP2i7N",
+                "object": "thread.message",
+                "created_at": 1713628740,
+                "assistant_id": null,
+                "thread_id": "thread_9coQ5PdOSZKkjnmYTHAWWz5W",
+                "run_id": null,
+                "role": "user",
+                "content": [
+                    {
+                        "type": "text",
+                        "text": {
+                            "value": "Kok akhir ini aku susah tidur ya",
+                            "annotations": []
+                        }
+                    }
+                ],
+                "attachments": [],
+                "metadata": {}
+            },
+            {
+                "id": "msg_hFfAmx3OLhxCFshJVQLI3L0v",
+                "object": "thread.message",
+                "created_at": 1713628763,
+                "assistant_id": "asst_kOWYW8qVgy50X88Y2Nz3RqIf",
+                "thread_id": "thread_9coQ5PdOSZKkjnmYTHAWWz5W",
+                "run_id": "run_7mtxwTDWMAXSJsVgJy4La2Zw",
+                "role": "assistant",
+                "content": [
+                    {
+                        "type": "text",
+                        "text": {
+                            "value": "Susah tidur dapat menjadi salah satu gejala dari stres yang berlebihan. Ada beberapa hal yang mungkin dapat membantu kamu untuk tidur lebih baik:\n\n1. Rutin membuat jadwal tidur: Cobalah untuk tidur dan bangun pada waktu yang sama setiap hari untuk membantu mengatur ritme sirkadian tubuhmu.\n\n2. Ciptakan lingkungan tidur yang nyaman: Pastikan ruangan tidurmu tenang, gelap, dan sejuk. Gunakan bantal dan kasur yang nyaman untuk mendukung posisi tidur yang baik.\n\n3. Hindari makanan, minuman, dan stimulan tertentu: Jauhkan diri dari kafein, alkohol, dan makanan berat sebelum tidur, karena mereka dapat mengganggu tidurmu. Cobalah minum teh herbal atau susu hangat sebagai alternatif.\n\n4. Batasi penggunaan teknologi sebelum tidur: Cahaya biru dari layar gadget dapat mengganggu produksi melatonin, hormon yang membantu mengatur siklus tidur. Usahakan untuk tidak menggunakan gadget atau menonton televisi setidaknya satu jam sebelum tidur.\n\n5. Lakukan relaksasi sebelum tidur: Coba lakukan aktivitas yang menenangkan sebelum tidur, seperti meditasi, pernapasan dalam, atau membaca buku. Ini dapat membantu menenangkan pikiranmu sebelum tidur.\n\n6. Hindari melakukan aktivitas yang berat atau berpikir keras sebelum tidur: Coba hindari melakukan pekerjaan rumah, belajar, atau memikirkan masalah berat sebelum tidur. Beralih ke kegiatan yang lebih santai dapat membantu melepaskan stres dan membuatmu lebih siap untuk tidur.\n\n7. Buat rutinitas tidur yang menyenangkan: Lakukan rutinitas relaksasi sebelum tidur, seperti mandi hangat, minum teh herbal, atau membaca buku yang membuatmu tenang. Rutinitas ini dapat memberi sinyal kepada tubuhmu bahwa saatnya untuk bersantai dan tidur.\n\nJika kamu masih kesulitan tidur meski sudah mencoba langkah-langkah di atas, sangat disarankan untuk berkonsultasi dengan dokter atau profesional kesehatan. Mereka dapat membantu mengevaluasi situasi tidurmu dengan lebih mendalam dan memberikan saran yang lebih spesifik untuk situasimu.",
+                            "annotations": []
+                        }
+                    }
+                ],
+                "attachments": [],
+                "metadata": {}
+            }
+        ]
+    }
+}

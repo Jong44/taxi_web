@@ -12,6 +12,7 @@ export default function Home() {
 
   const [threads, setThreads] = useState({});
   const [messages, setMessages] = useState([]);
+  const [loading, setLoading] = useState(false);
 
   async function createThread() {
     try {
@@ -94,6 +95,7 @@ export default function Home() {
   };
 
   async function runAssistant(text) {
+    setLoading(true);
     try {
       const response = await fetch("/api/assistant/run", {
         headers: {
@@ -105,8 +107,10 @@ export default function Home() {
           instructions: text,
         }),
       });
-      formData.text = "";
       if (response.ok) {
+        setFormData({
+          text: "",
+        });
         const assistant = response.json();
         setTimeout(() => {
           fetchData();
@@ -116,7 +120,7 @@ export default function Home() {
     } catch (error) {
       console.error(error);
     }
-    
+    setLoading(false);
   }
 
 
@@ -138,7 +142,7 @@ export default function Home() {
         <title>Home</title>
       </Head>
       <main
-        className={`flex min-h-screen flex-col items-center p-24 ${inter.className}`}
+        className={`flex min-h-screen flex-col items-center p-24 ${inter.className} max-sm:p-5`}
       >
         <img
           src={"/assets/images/logo_warna.png"}
@@ -182,7 +186,9 @@ export default function Home() {
 
               />
               <button className="bg-blue-500 hover:bg-blue-600 text-white rounded-md px-4 py-2" onClick={() => createMessage()}>
-                Send
+                {
+                  loading ? "Loading..." : "Send"
+                }
               </button>
             </div>
           </div>

@@ -121,7 +121,6 @@ export default function Home() {
     const storedThreads = localStorage.getItem("threads");
     if (storedThreads) {
       setThreads(JSON.parse(storedThreads));
-      fetchData();
     }
   }, []);
 
@@ -150,9 +149,14 @@ export default function Home() {
           <div className="p-4">
             <div className="flex items-center justify-between mb-4">
               <h2 className="text-lg font-semibold">Chat</h2>
-              <button className="bg-primary text-white p-2 text-xs rounded-lg hover:bg-[#91A9A3]" onClick={() => createThread()}>
-                <p>New Threds</p>
-              </button>
+              <div className=" flex gap-2">
+                <button className="bg-primary text-white p-2 text-xs rounded-lg hover:bg-[#91A9A3]" onClick={() => fetchData()}>
+                  <p>Refresh</p>
+                </button>
+                <button className="bg-primary text-white p-2 text-xs rounded-lg hover:bg-[#91A9A3]" onClick={() => createThread()}>
+                  <p>New Threds</p>
+                </button>
+              </div>
             </div>
             <div className="flex flex-col space-y-4">
               {messages.map((data, index) => (

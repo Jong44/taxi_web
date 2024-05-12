@@ -26,6 +26,7 @@ export default function Home() {
           JSON.stringify(newThread)
         );
         fetchData();
+        alert('Berhasil membuat thread baru, Silahkan chat dengan Olafff!');
       }
     } catch (error) {
       console.error(error);
@@ -104,15 +105,18 @@ export default function Home() {
           instructions: text,
         }),
       });
+      formData.text = "";
       if (response.ok) {
         const assistant = response.json();
         setTimeout(() => {
           fetchData();
         }, 3000);
+        
       }
     } catch (error) {
       console.error(error);
     }
+    
   }
 
 

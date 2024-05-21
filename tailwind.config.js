@@ -8,16 +8,14 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
-        "gradient-conic":
-          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+        "gradient-purple": "linear-gradient(135deg, #503F76 100%, #5E4EA4 80%)",
       },
       colors:{
-        "primary": "#235347",
-        "secondary": {
-          100: "#E2E2D5",
-          200: "#888883",
-        },
+        'primary-purple': '#503F76',
+        'primary-blue': '#6C5DD2',
+        'primary-orange': '#FF9F24',
+        'primary-cream': '#FFCDB5',
+        'primary-white' : "#F6E8DF"
       }
     },
   },

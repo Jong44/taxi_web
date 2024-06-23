@@ -28,6 +28,7 @@ const Index = () => {
             setError(response.error);
             return;
         }
+        localStorage.setItem('token', JSON.stringify(response.user.stsTokenManager.accessToken));
         router.push('/admin');
     }
 

@@ -3,7 +3,7 @@ import React, { useState } from 'react'
 const CardStatus = ({title, value, color, width}) => {
     
   return (
-    <div className='bg-white shadow-md rounded-md py-4 px-5 w-[295px] h-[13 0px] flex flex-col justify-between'>
+    <div className='bg-white shadow-md rounded-md py-4 px-5 h-[13 0px] flex flex-col justify-between'>
         <p className='font-bold'>{title}</p>
         <div>
             <div className='flex justify-between items-center'>

@@ -2,6 +2,7 @@ import React from 'react'
 import Image from 'next/image'
 import { useState } from 'react'
 import { useRouter } from 'next/router';
+import Link from 'next/link';
 
 const Index = () => {
   const router = useRouter();
@@ -15,12 +16,12 @@ const Index = () => {
     {
       name: 'Dokter',
       icon: '/assets/images/icons/doctor.svg',
-      link: '/admin/doctor'
+      link: '/admin/dokter'
     },
     {
-      name: 'Member',
+      name: 'Pengguna',
       icon: '/assets/images/icons/member.svg',
-      link: '/admin/member'
+      link: '/admin/pengguna'
     },
     {
       name: 'Podcast',
@@ -30,33 +31,28 @@ const Index = () => {
     {
       name: 'Artikel',
       icon: '/assets/images/icons/article.svg',
-      link: '/admin/article'
+      link: '/admin/artikel'
     },
     {
       name: 'Transaksi',
-      icon: '/assets/images/icons/transaction.svg',
-      link: '/admin/transaction'
-    },
-    {
-      name: 'Pegguna',
-      icon: '/assets/images/icons/user.svg',
-      link: '/admin/user'
-    },
-    {
-      name: 'Meditasi',
-      icon: '/assets/images/icons/meditation.svg',
-      link: '/admin/meditation'
+      icon: '/assets/images/icons/transaksi.svg',
+      link: '/admin/transaksi'
     },
     {
       name: 'Tes Kesehatan Mental',
-      icon: '/assets/images/icons/mentalhealth.svg',
-      link: '/admin/mental-health'
+      icon: '/assets/images/icons/test.svg',
+      link: '/admin/test-kesehatan-mental'
     },
     {
       name: 'Pengaturan',
       icon: '/assets/images/icons/setting.svg',
-      link: '/admin/setting'
+      link: '/admin/pengaturan'
     },
+    {
+      name: 'Keluar',
+      icon: '/assets/images/icons/logout.svg',
+      link: '/admin/logout'
+    }
 
 
 
@@ -74,12 +70,14 @@ const Index = () => {
       </div>
       {
         menu.map((item, index) => (
-          <div className={`w-full px-5 py-4 flex justify-between items-center text-xs ${active == item.link ? "bg-[#F4F6F9]" : "border-b"}`  } key={index}>
-            <div className=' flex items-center gap-2 font-medium'>
-              <Image width={20} height={20} src={item.icon} />
-              <p className='text-xs'>{item.name}</p>
+          <Link href={item.link} key={index}>
+            <div className={`w-full px-5 py-4 flex justify-between items-center text-xs ${active == item.link ? "bg-[#F4F6F9]" : ""}`} key={index}>
+              <div className=' flex items-center gap-2 font-medium'>
+                <Image width={17} height={17} src={item.icon} />
+                <p className='text-xs'>{item.name}</p>
+              </div>
             </div>
-          </div>
+          </Link>
         ))
       }
     </div>
